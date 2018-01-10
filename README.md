@@ -1,5 +1,5 @@
 # Estonian Identity Code generator
-This gem generates valid Estonian male and female identity codes, birth year between 1950 - 1999. This means that the generated person will always be an adult (18+).
+This ruby script generates valid Estonian male and female identity codes, birth year between 1950 - 1999. This means that the generated person will always be an adult (18+). Pull requests are welcome (this script should probably be a gem).
 
 ## Requirements
 You need ruby to run this script. Tested with ruby ```2.4.1```.
@@ -8,6 +8,7 @@ You need ruby to run this script. Tested with ruby ```2.4.1```.
 ```
 cd ~/your-preferred-directory
 git clone git@github.com:mlensment/ikgen.git
+cd ikgen
 ```
 
 ## Usage
