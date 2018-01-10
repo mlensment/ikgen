@@ -28,6 +28,9 @@ end
 
 ctrl = (ctrl_sum % 11).floor
 
-puts "#{ik}0" if ctrl == 10
-exit
+if ctrl == 10
+  puts "#{ik}0"
+  exit
+end
+
 puts "#{ik}#{ctrl}"
