@@ -13,7 +13,10 @@ cd ikgen
 
 ## Usage
 ```
-ruby ik.rb
+ruby ik.rb [option]
+
+option:
+    -c, --clipboard         Copies the generated identity code to your clipboard
 ```
 
 ## Bonus
